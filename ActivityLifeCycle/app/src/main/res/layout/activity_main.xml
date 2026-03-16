@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitleA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity A"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnStartB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity B"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnStartC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity C"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Dialog Activity"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvThreadCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thread Counter: 0"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvPauseCounterA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onPause Count: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDestroyCounterA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="onDestroy Count: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnCloseApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close App" />
+
+    </LinearLayout>
+</ScrollView>
